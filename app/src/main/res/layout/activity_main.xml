@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/Informations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Les informations:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="top"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/NomPrénom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Nom et Prénom"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre nom et prénom"
+        android:layout_marginTop="122dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Email"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre Email"
+        android:layout_marginTop="220dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Tél"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="280dp" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:hint="Entrez votre num"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/Adresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Adresse"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp" />
+
+    <EditText
+        android:id="@+id/editAdresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:hint="Entrez votre adresse"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/Ville"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Ville"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp" />
+
+    <EditText
+        android:id="@+id/editVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:hint="Entrez votre ville"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btn_Calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="envoyer"
+        android:layout_marginTop="600dp"
+        android:padding="10dp"
+        android:backgroundTint="#34495e "
+        android:textColor="#ffffff"
+        android:layout_gravity="end"
+        />
+
+
+</FrameLayout>
