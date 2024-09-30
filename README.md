@@ -27,3 +27,9 @@ Cette application Android permet aux utilisateurs de s'inscrire à une formation
 1. **Cloner le dépôt** :
    ```bash
    git clone https://github.com/elmahjoubisouka/exo4_tp1.git
+
+## Demonstration
+
+https://github.com/user-attachments/assets/355cafc0-9632-4e48-b25e-5ed5fb168547
+
+
